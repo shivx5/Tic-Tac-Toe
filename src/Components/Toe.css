@@ -1,0 +1,18 @@
+.tiles{
+        background-color: rgb(15, 255, 255);
+        height: 90px;
+        width: 90px;
+        text-align: center;
+        margin-bottom: 4px;
+        margin-right: 4px;
+        font-size: 40px;
+        place-items: center;        
+}
+.board{
+        display: grid;
+        border: 2px white;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 200px;
+        margin-left: 600px;
+        margin-right: 600px;
+}
